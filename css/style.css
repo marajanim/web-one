@@ -145,3 +145,86 @@ section{
 footer p{
     text-align: center;
 }
+
+
+
+--------
+a {
+	color: #FFAD00;
+	-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+a:hover, 
+a:focus {
+	color: #000000;
+}
+
+
+/* Button Style */
+.btn-st {
+	position: relative;
+	display: inline-block;
+	color: rgb(71, 71, 71);
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 100;
+	background-color: transparent;
+	border: none;
+    z-index: 2;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn-st:before {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 200%;
+	top: -50%;
+	left: -15%;
+	background: #ffcf318e;
+	padding: 0px;
+	-webkit-border-radius: 10px;
+			border-radius: 10px;
+	z-index: -1;
+	-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+.btn-st:after {
+	content: '';
+	position: absolute;
+	width: 110%;
+	height: 10%;
+	top: 105%;
+	left: -5%;
+	background: #FFAD00;
+	padding: 0px;
+	z-index: 0;
+	-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+.btn-st:hover:before {
+	-webkit-border-radius: unset;
+			border-radius: unset;
+	-webkit-transform: translateX(120%) scaleX(3) scaleY(0.8);
+			transform: translateX(120%) scaleX(3) scaleY(0.8);
+}
+
+.btn-st:hover:after {
+	-webkit-transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+			transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+}
+
+.pt-about .price .footer-price .btn-st:before,
+.pt-blog .blog-item .blog-btn .btn-st:before {
+	height: 165%;
+    top: -30%;
+}
+
+.pt-about .price .footer-price .btn-st,
+.pt-blog .blog-item .blog-btn .btn-st {
+    font-size: 16px;
+}
