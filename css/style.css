@@ -5,7 +5,13 @@ body{
 
 }
 
+p{
+    color: gray;
+    padding-bottom: 40px;
+}
+
 h1{
+    font-size: 40px;
 
 }
 
@@ -14,6 +20,8 @@ h1{
 }
 
 .top{
+    padding-top: 70px;
+    padding-left: 60px;
     float: left;
     width: 40%;
     margin-left: 5%;
@@ -22,4 +30,100 @@ h1{
 
 .top img{
     width: 100%;
+    cursor: pointer;
+    transition: .5s;
+    
+    
+}
+
+.top img:hover{
+    width: 100%;
+    cursor: pointer;
+    transition: .5s;
+    transform: translateY(-20px);
+    
+}
+.SecOne{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.Sectwo{
+    background-position: right;
+    background-image: url(../images/dream-bg.png);
+    
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.SecThree{
+    background-repeat: no-repeat;
+    background-image: url(../images/exp-bg.png);
+    background-position: left;
+}
+
+section{
+    height: 800px;
+    padding: 30px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background:linear-gradient(lightsalmon,orange);
+    color: white;
+    transition-timing-function: ease-in;
+    margin: 10px 0px;
+    transition: all 0.5s;
+    
+
+}
+
+.btn:hover{
+    text-decoration: none;
+    padding: 10px 25px;
+    background:linear-gradient(orange,rgb(255, 106, 20));
+    transform: translate(-50px);
+    color: white;
+    margin: 10px;
+
+
+}
+
+.heading{
+    padding:100px;
+}
+
+.Horiz_Line{
+    width: 70px;
+    border:1px solid orange;
+}
+
+.single_ex{
+    
+    background: #fff;
+    transition: all .5s;
+    box-shadow: 0 14px 36px 0 rgba(0,18,46,.08);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    
+}
+
+.single_ex:hover{
+    background:#fff3e8;
+	cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.single_ex h1{
+    transition: .5s;
+}
+.single_ex:hover h1{
+    transition:  0.5s ease-out;
+    transform: translate(30px);
+}
+
+footer p{
+    text-align: center;
 }
