@@ -1,3 +1,5 @@
+
+/* Body style Starts */
 body{
     margin: 0;
     padding: 0;
@@ -5,20 +7,25 @@ body{
 
 }
 
+/* All Paragraph style Starts */
 p{
     color: gray;
     padding-bottom: 40px;
 }
 
+/* All h1 style Starts */
 h1{
     font-size: 40px;
 
 }
 
+/* Highlight style Starts */
 .name-highlight{
     color: orange;
 }
 
+
+/* Section div starts */
 .top{
     padding-top: 70px;
     padding-left: 60px;
@@ -27,13 +34,12 @@ h1{
     margin-left: 5%;
 }
 
-
+/* image style starts */
 .top img{
     width: 100%;
     cursor: pointer;
     transition: .5s;
-    
-    
+       
 }
 
 .top img:hover{
@@ -43,11 +49,14 @@ h1{
     transform: translateY(-20px);
     
 }
+
+/* First section style Starts */
 .SecOne{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
 }
 
+/* second section style Starts */
 .Sectwo{
     background-position: right;
     background-image: url(../images/dream-bg.png);
@@ -56,17 +65,20 @@ h1{
     background-color: #ffffff;
 }
 
+/* third section style Starts */
 .SecThree{
     background-repeat: no-repeat;
     background-image: url(../images/exp-bg.png);
     background-position: left;
 }
 
+/* all section style Starts */
 section{
     height: 800px;
     padding: 30px;
 }
 
+/* button style Starts */
 .btn{
     text-decoration: none;
     padding: 10px 25px;
@@ -91,15 +103,19 @@ section{
 
 }
 
+
+/*section header style Starts */
 .heading{
     padding:100px;
 }
 
+/* section header horizontal line style Starts */
 .Horiz_Line{
     width: 70px;
     border:1px solid orange;
 }
 
+/* experience section style Starts */
 .single_ex{
     
     background: #fff;
@@ -124,6 +140,8 @@ section{
     transform: translate(30px);
 }
 
+
+/* footer copyright text style Starts */
 footer p{
     text-align: center;
 }
